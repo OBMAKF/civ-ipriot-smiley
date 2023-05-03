@@ -1,4 +1,5 @@
 # Smiley: Intro to OOP and IoT 
+## PI device : 21
 
 Demonstrates key Python OOP concepts and provides the first project's starting code.
 
