@@ -1,5 +1,6 @@
 from smiley import Smiley
 from blinkable import Blinkable
+from time import sleep
 
 
 class Sad(Smiley, Blinkable):
