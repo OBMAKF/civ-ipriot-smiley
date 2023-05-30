@@ -31,8 +31,7 @@ class Smiley:
         """
         Retrieve the base colour(complexion) for the smiley
         as an (R,G,B) tuple, default as yellow.
-        :returns: (R,G,B) value
-        :rtype tuple[int, int, int]:
+        :returns: (R,G,B) value.
         """
         return self.my_complexion
 
