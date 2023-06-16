@@ -9,7 +9,7 @@ class Smiley:
     BLUE = (0, 0, 255)
     BLANK = (0, 0, 0)
 
-    def __init__(self, complexion: tuple[int, int, int] = YELLOW):
+    def __init__(self, complexion: tuple[int, int, int] = YELLOW) -> None:
         # We have encapsulated the SenseHat object
         self.sense_hat = SenseHat()
         self.my_complexion = complexion
@@ -35,14 +35,14 @@ class Smiley:
         """
         return self.my_complexion
 
-    def dim_display(self, dimmed=True):
+    def dim_display(self, dimmed: bool = True) -> None:
         """
         Set the SenseHat's light intensity to low (True) or high (False)
         :param dimmed: Dim the display if True, otherwise don't dim
         """
         self.sense_hat.low_light = dimmed
 
-    def show(self):
+    def show(self) -> None:
         """
         Show the smiley on the screen.
         """
